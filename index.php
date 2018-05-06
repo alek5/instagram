@@ -9,7 +9,6 @@
 </head>
 <body>
 	<? include 'add_user2.php' ?>
-
 	<header>
 		<div class="container">
 			<div class="row justify-content-center">
@@ -30,7 +29,7 @@
     <div class="text-center">
     	<button id="add_next" class="btn btn-success">Загрузить ещё</button>
     </div>
-    <br />
+    <br>
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
@@ -45,7 +44,7 @@
   				count: count
   			},
   			success: function(data){
-    			$("#results").html(data);
+    			$("#results").html(data); 		
   			}	
 		});
 	};

@@ -1,5 +1,10 @@
 body {
   padding-top: 54px;
+  background: Beige;
+}
+
+p {
+	font-weight: bold;	
 }
 
 @media (min-width: 992px) {
