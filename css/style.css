@@ -11,3 +11,8 @@ body {
 .users {
     margin-left: 3%;
 }
+
+.row {
+	margin-right: 0;
+	margin-left: 0;
+	}  
